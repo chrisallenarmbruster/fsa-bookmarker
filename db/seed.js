@@ -4,7 +4,12 @@ const categories = [
   { name: "coding" },
   { name: "search" },
   { name: "jobs" },
-  { name: "miscellaneous" },
+  { name: "gaming" },
+  { name: "news" },
+  { name: "finances" },
+  { name: "media" },
+  { name: "shopping" },
+  { name: "other" },
 ]
 
 const bookmarks = [
@@ -14,7 +19,7 @@ const bookmarks = [
     url: "https://stackoverflow.com/",
     category: "coding",
   },
-  { name: "Bing ", url: "https://www.bing.com/", category: "search" },
+  { name: "Bing", url: "https://www.bing.com/", category: "search" },
   { name: "LinkedIn", url: "https://www.linkedin.com/", category: "jobs" },
   { name: "Indeed", url: "https://www.indeed.com/", category: "jobs" },
   {
