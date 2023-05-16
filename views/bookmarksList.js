@@ -7,7 +7,7 @@ function bookmarksListView(bookmarks, categories) {
       <h3>My Bookmarks</h3>
       ${bookmarks.map(
         (bookmark) =>
-          html`<div><a href="${bookmark.url}">${bookmark.name}</a> - 
+          html`<div class="mb-1"><a href="${bookmark.url}">${bookmark.name}</a> - 
           <a href="categories/${bookmark.Category.id}">${bookmark.Category.name}</div></a>`
       )}
     </div>

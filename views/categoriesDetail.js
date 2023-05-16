@@ -21,8 +21,8 @@ function categoriesDetailView(categoryBookmarks) {
                 method="POST"
               >
                 <button
-                  class="btn btn-danger btn-sm m-2"
-                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .6rem;"
+                  class="btn btn-danger btn-sm m-1"
+                  style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .6rem;"
                 >
                   X
                 </button>
