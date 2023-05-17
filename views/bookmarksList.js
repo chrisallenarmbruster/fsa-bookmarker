@@ -3,7 +3,7 @@ const html = require("html-template-tag")
 
 function bookmarksListView(bookmarks, categories) {
   return wrapView(html`<div class="row align-items-start">
-    <div class="col">
+    <div class="col12 col-md-6 mb-5">
       <h3>My Bookmarks</h3>
       ${bookmarks.map(
         (bookmark) =>
@@ -11,7 +11,7 @@ function bookmarksListView(bookmarks, categories) {
           <a href="categories/${bookmark.Category.id}">${bookmark.Category.name}</div></a>`
       )}
     </div>
-    <div class="col">
+    <div class="col-12 col-md-6 ">
       <h3>Add a Bookmark</h3>
       <form action="bookmarks" method="POST">
         <div class="mb-3">
