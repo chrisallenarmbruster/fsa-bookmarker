@@ -33,10 +33,7 @@ function categoriesDetailView(categoryBookmarks) {
                     action="/bookmarks/${bookmark.id}?_method=DELETE"
                     method="POST"
                   >
-                    <button
-                      class="btn btn-danger btn-sm m-1"
-                      style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .6rem;"
-                    >
+                    <button class="btn btn-danger btn-sm m-1 delete-button">
                       X
                     </button>
                   </form>

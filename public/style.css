@@ -1,4 +1,13 @@
+/* Most styling done w/ Bootstrap stylesheet */
+/* Overrides in this style sheet only */
+
 .container {
   max-width: 970px;
   min-width: 350px;
+}
+
+.delete-button {
+  --bs-btn-padding-y: 0.1rem;
+  --bs-btn-padding-x: 0.3rem;
+  --bs-btn-font-size: 0.6rem;
 }
